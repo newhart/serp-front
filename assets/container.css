@@ -1,0 +1,18 @@
+@media (min-width: 1904px) {
+    .container {
+        max-width: 1600px!important;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1460px) and (max-width: 1903px) {
+    .container {
+        max-width: 1400px!important;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1263px) {
+    .container {
+        max-width: 100%!important;
+    }
+}

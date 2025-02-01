@@ -1,0 +1,99 @@
+.list-publication {
+    margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap;
+    .item-publication {
+        flex: 50%;
+        max-width: 50%;
+        padding: 0 10px;
+    }
+}
+
+.list-lige {
+    padding: 0;
+    display: flex;
+    .item-lig {
+        padding: 2px;
+        background-color: #fff;
+        display: flex;
+        position: relative;
+        margin: 8px 0;
+        border-radius: 5px;
+        width: 100%;
+        .img-voiture {
+            height: 210px;
+            width: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .dedails-zotra {
+            width: calc(100% - 150px);
+            padding: 5px 10px;
+        }
+        .flex-boutton-bottom {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            bottom: 0;
+            right: 8px;
+            .v-btn {
+                text-transform: none;
+                font-size: 10px;
+                width: 180px;
+                height: 35px;
+                border-radius: 25px;
+                margin: 4px;
+            }
+        }
+        .actif {
+            width: 10px;
+            height: 10px;
+        }
+        img.user-profile {
+            width: 35px;
+            height: 35px;
+        }
+    }
+}
+
+@media (max-width: 1263px) and (min-width: 991px),
+(max-width: 767px) {
+    .list-publication .item-publication {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.actif {
+    width: 8px;
+    height: 8px;
+}
+
+.expand-disabled-destination td,
+.expand-disabled-destination th {
+    border: thin solid rgba(0, 0, 0, .12);
+}
+
+.expand-disabled-destination td[rowspan] {
+    vertical-align: top;
+    padding-top: 8px !important;
+}
+
+.expand-disabled-destination .v-expansion-panel:before {
+    box-shadow: 0px 0px 6px #ababab63;
+    border: 1px #e0e0e0 solid;
+}
+
+button.v-expansion-panel-header {
+    padding: 5px;
+    min-height: 45px !important;
+}
+
+.expand-disabled-destination td {
+    border-bottom: none !important;
+}
+
+.expand-disabled-destination th {
+    color: var(--r23-secondary) !important;
+}

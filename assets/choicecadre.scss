@@ -1,0 +1,70 @@
+.img-vehicule-cooperative {
+    width: 150px;
+    max-width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px !important;
+}
+
+.item-cadrechoise {
+    padding: 10px 0;
+    border-bottom: 1px #a2a2a240 solid;
+}
+
+.img-logo-cooperative {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 10px;
+    bottom: 10px;
+    right: 10px;
+    top: auto;
+}
+
+.max-w-320 {
+    max-width: 345px;
+    min-width: 345px;
+}
+
+.enlign {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #3f8d0c;
+    bottom: 8px;
+    right: 8px;
+    border-radius: 50%;
+    border: 1px #fff solid;
+}
+
+.v-card {
+    box-shadow: 2px 3px 6px rgb(150 150 150 / 34%) !important;
+    border-radius: 15px!important;
+}
+
+hr.border-primary {
+    border-color: #03215317;
+    border-bottom: none;
+}
+
+@media (max-width: 600px) {
+    .d-flex.justify-between.item-cadrechoise {
+        flex-direction: column;
+        border: 1px #8b8b8b2e solid;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        padding: 4px 4px 15px;
+    }
+    .img-vehicule-cooperative {
+        width: 100%!important;
+        max-width: 100%!important;
+        border-radius: 20px 20px 0 0 !important;
+    }
+    .v-application .details.mx-4 {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        padding: 0 10px;
+        padding-top: 10px;
+    }
+}

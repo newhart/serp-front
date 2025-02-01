@@ -1,0 +1,135 @@
+.img-vehicule-cooperative {
+    width: 270px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px!important;
+    background-color: #0321538f;
+}
+
+.img-logo-cooperative {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 12px;
+    bottom: 10px;
+    right: 10px;
+    top: auto;
+}
+
+.img-logo-cooperative-1 {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.enlign {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #3f8d0c;
+    bottom: 5px;
+    right: 0px;
+    border-radius: 50%;
+    border: 1px #fff solid;
+}
+
+.v-card {
+    box-shadow: 2px 3px 6px rgb(150 150 150 / 34%) !important;
+    border-radius: 15px!important;
+}
+
+hr.border-primary {
+    border-color: #03215317;
+    border-bottom: none;
+}
+
+.align-center.flex-boutton-bottom1 {
+    align-items: flex-end!important;
+}
+
+@media (max-width: 1459px) {
+    .flex-vue-accueil {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start!important;
+    }
+}
+
+@media (max-width: 767px) {
+    .img-vehicule-cooperative {
+        width: 170px;
+        height: 245px;
+    }
+    .block-itm {
+        flex-direction: column;
+    }
+    .block-itm.d-flex.justify-between {
+        flex-direction: row;
+    }
+    .flex-vue-accueil {
+        position: absolute;
+        left: 10px;
+        flex-direction: row;
+    }
+    .flex-boutton-bottom1 {
+        justify-content: flex-end;
+    }
+    .img-vehicule-cooperative {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 640px) {
+    .card-flexable-res-1 {
+        flex-direction: column;
+    }
+    .img-vehicule-cooperative {
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    .flex-vue-accueil {
+        position: relative;
+        left: 0;
+        flex-direction: column;
+    }
+    .flex-boutton-bottom1 {
+        justify-content: space-between;
+    }
+    .details.mx-4 {
+        margin: 0!important;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .py-2.px-0.col.col-12 {
+        padding: 2px 0!important;
+    }
+}
+
+@media (max-width: 428px) {
+    .d-flex.flex-vue-accueil {
+        display: none!important;
+    }
+    .flex-boutton-bottom1 {
+        justify-content: flex-end;
+    }
+    .item-itineraire.d-flex {
+        flex-direction: column;
+    }
+    .w-65 {
+        width: 100%;
+    }
+    .img-logo-cooperative-1 {
+        width: 40px;
+        height: 40px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+}

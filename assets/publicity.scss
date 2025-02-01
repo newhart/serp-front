@@ -1,0 +1,30 @@
+.img-user-connecter {
+    width: 100px!important;
+    height: 100px!important;
+    max-width: 100px!important;
+    min-width: 100px!important;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.item-contact-enlign {
+    box-shadow: 2px 3px 6px #96969657!important;
+    border-radius: 15px;
+}
+
+@media (max-width: 1100px) {
+    .img-user-connecter {
+        width: 80px !important;
+        height: 80px !important;
+        max-width: 80px !important;
+        min-width: 80px !important;
+        margin-right: 10px;
+        border-radius: 20px;
+    }
+    .details {
+        max-width: calc(100% - 90px)!important;
+    }
+    p.limite3-lign {
+        -webkit-line-clamp: 2;
+    }
+}

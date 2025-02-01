@@ -1,0 +1,65 @@
+{
+  "name": "site-r23-v2",
+  "version": "1.0.0",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt --hostname  localhost  --port 3000",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest",
+    "deploy": "pm2 start npm --name nuxtjs -- start"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.1.96",
+    "@morioh/v-lightbox": "^1.0.3",
+    "@nuxt/core": "^2.15.8",
+    "@nuxtjs/auth-next": "5.0.0-1667386184.dfbbb54",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dayjs": "^1.4.1",
+    "@nuxtjs/laravel-echo": "^1.1.0",
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/proxy": "^2.1.0",
+    "@nuxtjs/svg": "^0.4.0",
+    "@nuxtjs/toast": "^3.3.1",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "@vue/test-utils": "^1.3.0",
+    "aos": "^2.3.4",
+    "babel-core": "7.0.0-bridge.0",
+    "core-js": "^3.25.3",
+    "emoji-vue": "^0.2.4",
+    "laravel-echo": "^1.14.2",
+    "nuxt": "^2.15.8",
+    "nuxt-sweetalert2": "^1.0.0",
+    "pusher-js": "^8.0.0",
+    "socket.io-client": "^4.5.4",
+    "vue": "^2.7.10",
+    "vue-gallery-slideshow": "^1.5.2",
+    "vue-image-lightbox": "^7.2.0",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-lazyload": "^3.0.0-rc.2",
+    "vue-picture-input": "^2.4.0",
+    "vue-quick-chat": "^1.2.8",
+    "vue-scrollto": "2.14.0",
+    "vue-select": "^3.20.0",
+    "vue-server-renderer": "^2.7.10",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-template-compiler": "^2.7.10",
+    "vue2-autocomplete-js": "^0.2.2",
+    "vue2-timepicker": "^1.1.6",
+    "vuedraggable": "^2.24.3",
+    "vuetify": "^2.6.10"
+  },
+  "devDependencies": {
+    "babel-jest": "^29.1.2",
+    "jest": "^29.1.2",
+    "jest-environment-jsdom": "^29.1.2",
+    "vue-jest": "^3.0.4"
+  }
+}
